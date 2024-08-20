@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividad 2</title>
+</head>
+<body>
+    <form onsumit="setItem(event)">
+        <input>
+    </form>
+    <!-- Utilizo un para crear la constante y imprimir por consola -->
+    <script>
+        const setItem = (e)=>{
+            e.preventDefault();
+            console.log(e.target[0].value);
+        }
+    </script>
+</body>
+</html>
